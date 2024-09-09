@@ -7,6 +7,8 @@
 </head>
 <body>
     
-    <script src="main.js"></script>
+    <script>
+        alert("Hello JavaScript!");
+    </script>
 </body>
 </html>
