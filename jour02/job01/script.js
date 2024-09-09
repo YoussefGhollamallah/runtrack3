@@ -1,3 +1,8 @@
 let citation = document.querySelector("#citation")
+let button = document.querySelector("#button")
 
-console.log(citation.innerHTML)
+button.addEventListener("click", () => 
+    {
+        console.log(citation.innerHTML)
+    }
+)
