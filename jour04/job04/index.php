@@ -12,6 +12,7 @@
         <h1>Liste des utilisateurs</h1>
     </header>
     <main>
+
         <table>
             <thead>
                 <tr>
@@ -26,7 +27,9 @@
             </tbody>
         </table>
 
-        <button onclick="loadUsers()">Update</button>
+    
+        <button id="btn">Update</button>
+
     </main>
     <script src="script.js"></script>
 </body>
