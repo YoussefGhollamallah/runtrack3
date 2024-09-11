@@ -14,7 +14,7 @@ try {
     $dbconnect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
-    $stmt = $dbconnect("SELECT * FROM  utilisateurs");
+    $stmt = $dbconnect->query("SELECT * FROM  utilisateurs");
     $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     echo json_encode($users);
